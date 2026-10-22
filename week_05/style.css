@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+.hero {
+    width: 100%;
+    min-height: 430px;
+    background-image: url("img/hero_background.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-content {
+    width: 100%;
+    min-height: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 25px 3%;
+}
+
+.vehicle-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.vehicle-info h2 {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.vehicle-info sup {
+    font-size: 10px;
+}
+
+.vehicle-info .year {
+    font-weight: bold;
+}
+
+.vehicle-info .disclaimer {
+    font-size: 8px;
+}
+
+.vehicle-info .disclaimer a {
+    color: white;
+    text-decoration: underline;
+    font-size: 10px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.hero-buttons a {
+    background-color: white;
+    color: #222;
+    text-decoration: none;
+    font-size: 8px;
+    padding: 7px 12px;
+    border-radius: 20px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 4%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 9px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.ford-logo {
+   width: 45px;
+   height: auto;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
